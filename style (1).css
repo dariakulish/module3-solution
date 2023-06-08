@@ -1,0 +1,19 @@
+.navbar .navbar-expand-lg {
+  position: fixed;
+}
+#box1, #box2, #box3 {
+  margin-top: 10px;
+}
+@media(min-width: 992px) {
+  .collapse{
+    opacity: 0%;
+    cursor: default;
+  }
+}
+@media(max-width: 767px) {
+  #box1, #box2, #box3 {
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+  }
+}
